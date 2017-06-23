@@ -1,0 +1,8 @@
+string_1 = "Camelot"string_2 = "place"
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+''' Using %s, then %() to definate %s'''
+
+print " What a {s}!" .format(s=string_1)
+''' Using {variable}, then .format() ->defination '''
+
